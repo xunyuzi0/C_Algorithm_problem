@@ -8,6 +8,7 @@ typedef struct Employee {
     int department;
     float salary;
     struct Employee *next;
+    
 } Employee;
 
 Employee *createNode(int id, char name[], int department, float salary) {
