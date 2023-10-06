@@ -3,6 +3,7 @@
 #include <stdbool.h>
 
 
+//建立节点结构体
 typedef struct Node {
     int data;
     int freq;
